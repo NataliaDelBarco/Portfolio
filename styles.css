@@ -136,8 +136,10 @@
 .name {
     height: 92vh;
     display: flex;
-    align-items: center;
+    justify-content: center;
+    align-items: start;
     padding-left: 10vw;
+    flex-direction: column;
 }
 
 .about_me {
@@ -336,17 +338,13 @@
 }
 
 .scroll_down {
-    position: absolute;
     display: flex;
     align-items: center;
     gap: 1.5vh;
     justify-content: center;
     flex-direction: column;
-    bottom: 30px;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 15vh;
+    margin-left: -10vw;
     width: 100vw;
     animation: bounce 2s infinite ease-in-out;
 }
@@ -404,7 +402,15 @@ section {
     justify-content: flex-start;
     align-content: center;
     height: 90vh;
+    /* scroll-snap-align: end; */
 }
+
+/* main {
+    height: 100vh;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    -webkit-overflow-scrolling: touch;
+} */
 
 h1 {
     font-size: 100px;
@@ -447,6 +453,32 @@ a:visited {
 time {
     font-family: Bukowski-Regular;
     font-size: 1.2rem;
+}
+
+#warning-message {
+    display: none;
+}
+
+@media only screen and (hover: none) and (pointer: coarse) {
+    #wrapper {
+        display: none;
+    }
+
+    #warning-message {
+        margin: 0 4vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        text-align: center;
+    }
+}
+
+@media only screen and (hover) and (pointer) {
+    #warning-message {
+        display: none;
+    }
 }
 
 .switch {
@@ -506,4 +538,9 @@ input:checked+.slider:before {
 
 .slider.round:before {
     border-radius: 50%;
+}
+
+.rotate-img {
+    width: 30vw;
+    margin-top: 6vh;
 }
