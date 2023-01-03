@@ -459,7 +459,7 @@ time {
     display: none;
 }
 
-@media only screen and (hover: none) and (pointer: coarse) {
+@media only screen and (max-width: 768px) {
     #wrapper {
         display: none;
     }
@@ -475,7 +475,7 @@ time {
     }
 }
 
-@media only screen and (hover) and (pointer) {
+@media only screen and (min-width: 768px) {
     #warning-message {
         display: none;
     }
