@@ -2,7 +2,7 @@ export const proyectsUI_UX = [
 	{
 		title: 'Custom Lego',
 		date: 'Dic. 2022',
-		imageSrc: '/portfolio-nxtjs/img/CustomLego.png',
+		imageSrc: '/portfolio/img/CustomLego.png',
 		duration: '15 días',
 		role: 'Product Designer',
 		typeOfWork: 'Individual',
@@ -18,7 +18,7 @@ export const proyectsUI_UX = [
 	{
 		title: 'Urbango',
 		date: 'Nov. 2022',
-		imageSrc: '/portfolio-nxtjs/img/mockupUrbango.jpg',
+		imageSrc: '/portfolio/img/mockupUrbango.jpg',
 		duration: '15 días',
 		role: 'Product Designer',
 		typeOfWork: 'Individual',
@@ -32,7 +32,7 @@ export const proyectsUI_UX = [
 	{
 		title: 'Feature Tinder',
 		date: 'Nov. 2022',
-		imageSrc: '/portfolio-nxtjs/img/TinderFeature.png',
+		imageSrc: '/portfolio/img/TinderFeature.png',
 		duration: '15 días',
 		role: 'Product Designer',
 		typeOfWork: 'Grupal',
@@ -46,7 +46,7 @@ export const proyectsUI_UX = [
 	{
 		title: 'Comercial Pazos',
 		date: 'Oct. 2022',
-		imageSrc: '/portfolio-nxtjs/img/ComercialPazos.png',
+		imageSrc: '/portfolio/img/ComercialPazos.png',
 		duration: '15 días',
 		role: 'Product Designer',
 		typeOfWork: 'Grupal',
@@ -56,7 +56,7 @@ export const proyectsUI_UX = [
 	{
 		title: 'Eras+',
 		date: 'Oct. 2022',
-		imageSrc: '/portfolio-nxtjs/img/Eras+.png',
+		imageSrc: '/portfolio/img/Eras+.png',
 		duration: '5 días',
 		role: 'UX Designer',
 		typeOfWork: 'Grupal',
@@ -68,7 +68,7 @@ export const proyectsUI_UX = [
 	{
 		title: 'Vegrows',
 		date: 'Jun. 2022',
-		imageSrc: '/portfolio-nxtjs/img/Vegrows.png',
+		imageSrc: '/portfolio/img/Vegrows.png',
 		duration: '3 meses',
 		role: 'Product Designer',
 		typeOfWork: 'Individual',

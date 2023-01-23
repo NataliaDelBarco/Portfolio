@@ -2,7 +2,7 @@ export const proyectsDisenoGrafico = [
 	{
 		title: 'Terretup',
 		date: 'May. 2021',
-		imageSrc: '/portfolio-nxtjs/img/Terretup.jpg',
+		imageSrc: '/portfolio/img/Terretup.jpg',
 		duration: '1 mes',
 		role: 'Graphic Designer',
 		typeOfWork: 'Individual',
@@ -14,7 +14,7 @@ export const proyectsDisenoGrafico = [
 	{
 		title: 'Coopernic',
 		date: 'Mar. 2021',
-		imageSrc: '/portfolio-nxtjs/img/Coopernic.jpg',
+		imageSrc: '/portfolio/img/Coopernic.jpg',
 		duration: '1 mes',
 		role: 'Graphic Designer',
 		typeOfWork: 'Individual',
@@ -26,7 +26,7 @@ export const proyectsDisenoGrafico = [
 	{
 		title: 'Correos',
 		date: 'Feb. 2021',
-		imageSrc: '/portfolio-nxtjs/img/Correos.jpg',
+		imageSrc: '/portfolio/img/Correos.jpg',
 		duration: '15 días',
 		role: 'Graphic Designer',
 		typeOfWork: 'Dupla',
@@ -38,7 +38,7 @@ export const proyectsDisenoGrafico = [
 	{
 		title: 'Más Diseño Gráfico',
 		date: '2018/2023',
-		imageSrc: '/portfolio-nxtjs/img/masDisenoGrafico.jpg',
+		imageSrc: '/portfolio/img/masDisenoGrafico.jpg',
 		content:
 			'Tras 5 años de trayectoria dentro del diseño he podido realizar trabajos tan interesantes como identidades corporativas, maquetación, packaging, fotografía, animación 3D, realidad virtual, diseño web en wordpress o desde cero (con HTML, CSS y PHP), señalética, publicidad, motion graphics... Aquí os traigo un recopilatorio de varios de ellos.'
 	}

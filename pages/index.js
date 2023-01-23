@@ -25,7 +25,7 @@ export default function Home() {
 				<motion.div
 					{...animationOpacitySettings}
 					className={` ${lofiToggle && 'dark'}`}>
-					<main className="bg-[url('/portfolio-nxtjs/img/FondoHiFiM.svg')] dark:bg-[url('/portfolio-nxtjs/img/FondoLoFiM.svg')] md:bg-[url('/portfolio-nxtjs/img/FondoHiFi.svg')] bg-no-repeat m-0 md:dark:bg-[url('/portfolio-nxtjs/img/FondoLoFi.svg')] w-full bg-cover bg-top">
+					<main className="bg-[url('/portfolio/img/FondoHiFiM.svg')] dark:bg-[url('/portfolio/img/FondoLoFiM.svg')] md:bg-[url('/portfolio/img/FondoHiFi.svg')] bg-no-repeat m-0 md:dark:bg-[url('/portfolio/img/FondoLoFi.svg')] w-full bg-cover bg-top">
 						<Header
 							isToggleMenu={isToggleMenu}
 							manageToggleMenu={() =>
@@ -95,7 +95,7 @@ export default function Home() {
 										</p>
 									</div>
 									<div className="flex items-center -mt-14 md:my-0 w-full md:w-1/2 h-full justify-center md:justify-between mx-auto md:ml-32">
-										<div className="bg-[url('/portfolio-nxtjs/img/PerfilHiFi.webp')] dark:bg-[url('/portfolio-nxtjs/img/PerfilLoFi.webp')] h-48 w-48 md:h-[30rem] md:w-[30rem] bg-contain bg-no-repeat transition-all duration-200"></div>
+										<div className="bg-[url('/portfolio/img/PerfilHiFi.webp')] dark:bg-[url('/portfolio/img/PerfilLoFi.webp')] h-48 w-48 md:h-[30rem] md:w-[30rem] bg-contain bg-no-repeat transition-all duration-200"></div>
 									</div>
 								</div>
 							</div>
@@ -137,32 +137,32 @@ export default function Home() {
 							</div>
 							<div className="flex gap-5  h-5 mt-24 justify-center items-center">
 								<SocialButton
-									bg="/portfolio-nxtjs/icons/Linkedin.svg"
-									bgLofi="/portfolio-nxtjs/icons/LinkedinLo.svg"
+									bg="/portfolio/icons/Linkedin.svg"
+									bgLofi="/portfolio/icons/LinkedinLo.svg"
 									isLofi={lofiToggle}
 									href="https://www.linkedin.com/in/natalia-del-barco-rojas-product-designer/"
 								/>
 								<SocialButton
-									bg="/portfolio-nxtjs/icons/Medium.svg"
-									bgLofi="/portfolio-nxtjs/icons/MediumLo.svg"
+									bg="/portfolio/icons/Medium.svg"
+									bgLofi="/portfolio/icons/MediumLo.svg"
 									isLofi={lofiToggle}
 									href="https://medium.com/@nataliadelbarcorojas"
 								/>
 								<SocialButton
-									bg="/portfolio-nxtjs/icons/mail.svg"
-									bgLofi="/portfolio-nxtjs/icons/MailLo.svg"
+									bg="/portfolio/icons/mail.svg"
+									bgLofi="/portfolio/icons/MailLo.svg"
 									isLofi={lofiToggle}
 									href="mailto:nataliadelbarcodesign@gmail.com"
 								/>
 								<SocialButton
-									bg="/portfolio-nxtjs/icons/Behance.svg"
-									bgLofi="/portfolio-nxtjs/icons/BehanceLo.svg"
+									bg="/portfolio/icons/Behance.svg"
+									bgLofi="/portfolio/icons/BehanceLo.svg"
 									isLofi={lofiToggle}
 									href="https://www.behance.net/nataliadelbarcorojas"
 								/>
 								<SocialButton
-									bg="/portfolio-nxtjs/icons/Figma.svg"
-									bgLofi="/portfolio-nxtjs/icons/FigmaLo.svg"
+									bg="/portfolio/icons/Figma.svg"
+									bgLofi="/portfolio/icons/FigmaLo.svg"
 									isLofi={lofiToggle}
 									href="https://www.figma.com/@nataliadelbarco"
 								/>
