@@ -40,6 +40,8 @@ export const proyectsDisenoGrafico = [
 		date: '2018/2023',
 		imageSrc: '/portfolio/img/masDisenoGrafico.jpg',
 		content:
-			'Tras 5 años de trayectoria dentro del diseño he podido realizar trabajos tan interesantes como identidades corporativas, maquetación, packaging, fotografía, animación 3D, realidad virtual, diseño web en wordpress o desde cero (con HTML, CSS y PHP), señalética, publicidad, motion graphics... Aquí os traigo un recopilatorio de varios de ellos.'
+			'Tras 5 años de trayectoria dentro del diseño he podido realizar trabajos tan interesantes como identidades corporativas, maquetación, packaging, fotografía, animación 3D, realidad virtual, diseño web en wordpress o desde cero (con HTML, CSS y PHP), señalética, publicidad, motion graphics... Aquí os traigo un recopilatorio de varios de ellos.',
+		behanceLink:
+			'https://www.behance.net/gallery/161936089/Proyectos-de-Diseno-Grafico'
 	}
 ]
