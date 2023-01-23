@@ -11,8 +11,8 @@ export default function ProyectInfo({ duration, typeOfWork, role }) {
 						<Image
 							src={
 								isLofi
-									? '/prtfolio/icons/ProyectoRelojLo.svg'
-									: '/prtfolio/icons/ProyectoReloj.svg'
+									? '/portfolio-nxtjs/icons/ProyectoRelojLo.svg'
+									: '/portfolio-nxtjs/icons/ProyectoReloj.svg'
 							}
 							width={25}
 							height={25}
@@ -26,8 +26,8 @@ export default function ProyectInfo({ duration, typeOfWork, role }) {
 						<Image
 							src={
 								isLofi
-									? '/prtfolio/icons/ProyectoMaletinLo.svg'
-									: '/prtfolio/icons/ProyectoMaletin.svg'
+									? '/portfolio-nxtjs/icons/ProyectoMaletinLo.svg'
+									: '/portfolio-nxtjs/icons/ProyectoMaletin.svg'
 							}
 							width={25}
 							height={25}
@@ -41,8 +41,8 @@ export default function ProyectInfo({ duration, typeOfWork, role }) {
 						<Image
 							src={
 								isLofi
-									? '/prtfolio/icons/ProyectoPersonasLo.svg'
-									: '/prtfolio/icons/ProyectoPersonas.svg'
+									? '/portfolio-nxtjs/icons/ProyectoPersonasLo.svg'
+									: '/portfolio-nxtjs/icons/ProyectoPersonas.svg'
 							}
 							width={25}
 							height={25}

@@ -24,7 +24,7 @@ export default function UIUX() {
 					<motion.main
 						{...animationOpacitySettings}
 						id="proyectos"
-						className="bg-[url(/prtfolio/img/ProyectosUXhifi.svg)] dark:bg-[url(/prtfolio/img/ProyectosUXlofi.svg)] bg-no-repeat m-0 bg-cover w-screen">
+						className="bg-[url(/portfolio-nxtjs/img/ProyectosUXhifi.svg)] dark:bg-[url(/portfolio-nxtjs/img/ProyectosUXlofi.svg)] bg-no-repeat m-0 bg-cover w-screen">
 						<div>
 							<ProyectHeader />
 							<section className="h-[100vh] mx-8 text-center">
@@ -125,32 +125,32 @@ export default function UIUX() {
 								</div>
 								<div className="flex gap-5  h-5 mt-24 justify-center items-center">
 									<SocialButton
-										bg="/prtfolio/icons/Linkedin.svg"
-										bgLofi="/prtfolio/icons/LinkedinLo.svg"
+										bg="/portfolio-nxtjs/icons/Linkedin.svg"
+										bgLofi="/portfolio-nxtjs/icons/LinkedinLo.svg"
 										href="https://www.linkedin.com/in/natalia-del-barco-rojas-product-designer/"
 										isLofi={isLofi}
 									/>
 									<SocialButton
-										bg="/prtfolio/icons/Medium.svg"
-										bgLofi="/prtfolio/icons/MediumLo.svg"
+										bg="/portfolio-nxtjs/icons/Medium.svg"
+										bgLofi="/portfolio-nxtjs/icons/MediumLo.svg"
 										href="https://medium.com/@nataliadelbarcorojas"
 										isLofi={isLofi}
 									/>
 									<SocialButton
-										bg="/prtfolio/icons/mail.svg"
-										bgLofi="/prtfolio/icons/MailLo.svg"
+										bg="/portfolio-nxtjs/icons/mail.svg"
+										bgLofi="/portfolio-nxtjs/icons/MailLo.svg"
 										href="mailto:nataliadelbarcodesign@gmail.com"
 										isLofi={isLofi}
 									/>
 									<SocialButton
-										bg="/prtfolio/icons/Behance.svg"
-										bgLofi="/prtfolio/icons/BehanceLo.svg"
+										bg="/portfolio-nxtjs/icons/Behance.svg"
+										bgLofi="/portfolio-nxtjs/icons/BehanceLo.svg"
 										href="https://www.behance.net/nataliadelbar"
 										isLofi={isLofi}
 									/>
 									<SocialButton
-										bg="/prtfolio/icons/Figma.svg"
-										bgLofi="/prtfolio/icons/FigmaLo.svg"
+										bg="/portfolio-nxtjs/icons/Figma.svg"
+										bgLofi="/portfolio-nxtjs/icons/FigmaLo.svg"
 										href="https://www.figma.com/@nataliadelbarco"
 										isLofi={isLofi}
 									/>

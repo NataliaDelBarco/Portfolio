@@ -15,7 +15,7 @@ export default function Header({ isToggleMenu, manageToggleMenu }) {
 					<a href="#sobre-mi">
 						<div className="flex flex-row pb-1 gap-4 items-center border-transparent border-b-2 hover:border-black transition-all duration-500">
 							<Image
-								src="/prtfolio/icons/perfil.svg"
+								src="/portfolio-nxtjs/icons/perfil.svg"
 								width="30"
 								height="30"
 								alt="sobre mi"
@@ -26,7 +26,7 @@ export default function Header({ isToggleMenu, manageToggleMenu }) {
 					<a href="#proyectos">
 						<div className="flex flex-row pb-1 gap-4 items-center border-transparent border-b-2 hover:border-black transition-all duration-500">
 							<Image
-								src="/prtfolio/icons/proyectos.svg"
+								src="/portfolio-nxtjs/icons/proyectos.svg"
 								width="30"
 								height="30"
 								alt="proyectos"
@@ -37,7 +37,7 @@ export default function Header({ isToggleMenu, manageToggleMenu }) {
 					<a href="#contacta-conmigo">
 						<div className="flex flex-row pb-1 gap-4 items-center border-transparent border-b-2 hover:border-black transition-all duration-500">
 							<Image
-								src="/prtfolio/icons/contacto.svg"
+								src="/portfolio-nxtjs/icons/contacto.svg"
 								width="30"
 								height="30"
 								alt="contacta conmigo"

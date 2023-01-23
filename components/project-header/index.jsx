@@ -9,7 +9,7 @@ export default function ProyectHeader() {
 				<div className="md:w-1/3 w-1/5">
 					<Link href="/#proyectos">
 						<Image
-							src="/prtfolio/icons/arrow.svg"
+							src="/portfolio-nxtjs/icons/arrow.svg"
 							width={30}
 							height={30}
 							alt="volver atrás"

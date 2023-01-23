@@ -16,10 +16,10 @@ export default function CardButton({
 					isAlternative
 						? isLofi
 							? 'bg-white border-2 border-black'
-							: "bg-[url('/prtfolio/img/UX_UI.webp')]"
+							: "bg-[url('/portfolio-nxtjs/img/UX_UI.webp')]"
 						: isLofi
 						? 'bg-white border-2 border-black'
-						: "bg-[url('/prtfolio/img/DisenoGrafico.webp')]"
+						: "bg-[url('/portfolio-nxtjs/img/DisenoGrafico.webp')]"
 				}
                 bg-cover
                 flex

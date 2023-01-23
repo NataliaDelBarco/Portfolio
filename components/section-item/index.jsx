@@ -71,24 +71,24 @@ export default function SectionItem({
 								<div className="flex flex-row justify-center gap-4 py-4">
 									{mediumLink && (
 										<SocialButton
-											bg="/prtfolio/icons/Medium.svg"
-											bgLofi="/prtfolio/icons/MediumLo.svg"
+											bg="/portfolio-nxtjs/icons/Medium.svg"
+											bgLofi="/portfolio-nxtjs/icons/MediumLo.svg"
 											href={mediumLink}
 											isLofi={isLofi}
 										/>
 									)}
 									{figmaLink && (
 										<SocialButton
-											bg="/prtfolio/icons/Figma.svg"
-											bgLofi="/prtfolio/icons/FigmaLo.svg"
+											bg="/portfolio-nxtjs/icons/Figma.svg"
+											bgLofi="/portfolio-nxtjs/icons/FigmaLo.svg"
 											href={figmaLink}
 											isLofi={isLofi}
 										/>
 									)}
 									{behanceLink && (
 										<SocialButton
-											bg="/prtfolio/icons/Behance.svg"
-											bgLofi="/prtfolio/icons/BehanceLo.svg"
+											bg="/portfolio-nxtjs/icons/Behance.svg"
+											bgLofi="/portfolio-nxtjs/icons/BehanceLo.svg"
 											href={behanceLink}
 											isLofi={isLofi}
 											isProyect
@@ -96,8 +96,8 @@ export default function SectionItem({
 									)}
 									{externalLink && (
 										<SocialButton
-											bg="/prtfolio/icons/Link2.svg"
-											bgLofi="/prtfolio/icons/LinkLo.svg"
+											bg="/portfolio-nxtjs/icons/Link2.svg"
+											bgLofi="/portfolio-nxtjs/icons/LinkLo.svg"
 											href={externalLink}
 											isLofi={isLofi}
 											isProyect
@@ -105,8 +105,8 @@ export default function SectionItem({
 									)}
 									{linkedInLink && (
 										<SocialButton
-											bg="/prtfolio/icons/LinkedIn.svg"
-											bgLofi="/prtfolio/icons/LinkedInLo.svg"
+											bg="/portfolio-nxtjs/icons/LinkedIn.svg"
+											bgLofi="/portfolio-nxtjs/icons/LinkedInLo.svg"
 											href={linkedInLink}
 											isLofi={isLofi}
 											isProyect
@@ -160,8 +160,8 @@ export default function SectionItem({
 											<div className="flex flex-row gap-4 mt-2 w-full justify-center">
 												{mediumLink && (
 													<SocialButton
-														bg="/prtfolio/icons/Medium.svg"
-														bgLofi="/prtfolio/icons/MediumLo.svg"
+														bg="/portfolio-nxtjs/icons/Medium.svg"
+														bgLofi="/portfolio-nxtjs/icons/MediumLo.svg"
 														href={mediumLink}
 														isLofi={isLofi}
 														isProyect
@@ -169,8 +169,8 @@ export default function SectionItem({
 												)}
 												{figmaLink && (
 													<SocialButton
-														bg="/prtfolio/icons/Figma.svg"
-														bgLofi="/prtfolio/icons/FigmaLo.svg"
+														bg="/portfolio-nxtjs/icons/Figma.svg"
+														bgLofi="/portfolio-nxtjs/icons/FigmaLo.svg"
 														href={figmaLink}
 														isLofi={isLofi}
 														isProyect
@@ -178,8 +178,8 @@ export default function SectionItem({
 												)}
 												{behanceLink && (
 													<SocialButton
-														bg="/prtfolio/icons/Behance.svg"
-														bgLofi="/prtfolio/icons/BehanceLo.svg"
+														bg="/portfolio-nxtjs/icons/Behance.svg"
+														bgLofi="/portfolio-nxtjs/icons/BehanceLo.svg"
 														href={behanceLink}
 														isLofi={isLofi}
 														isProyect
@@ -187,8 +187,8 @@ export default function SectionItem({
 												)}
 												{externalLink && (
 													<SocialButton
-														bg="/prtfolio/icons/Link2.svg"
-														bgLofi="/prtfolio/icons/LinkLo.svg"
+														bg="/portfolio-nxtjs/icons/Link2.svg"
+														bgLofi="/portfolio-nxtjs/icons/LinkLo.svg"
 														href={externalLink}
 														isLofi={isLofi}
 														isProyect
@@ -196,8 +196,8 @@ export default function SectionItem({
 												)}
 												{linkedInLink && (
 													<SocialButton
-														bg="/prtfolio/icons/LinkedIn.svg"
-														bgLofi="/prtfolio/icons/LinkedInLo.svg"
+														bg="/portfolio-nxtjs/icons/LinkedIn.svg"
+														bgLofi="/portfolio-nxtjs/icons/LinkedInLo.svg"
 														href={linkedInLink}
 														isLofi={isLofi}
 														isProyect
@@ -244,8 +244,8 @@ export default function SectionItem({
 											<div className="flex flex-row gap-4 mt-2 w-full justify-center">
 												{mediumLink && (
 													<SocialButton
-														bg="/prtfolio/icons/Medium.svg"
-														bgLofi="/prtfolio/icons/MediumLo.svg"
+														bg="/portfolio-nxtjs/icons/Medium.svg"
+														bgLofi="/portfolio-nxtjs/icons/MediumLo.svg"
 														href={mediumLink}
 														isLofi={isLofi}
 														isProyect
@@ -253,8 +253,8 @@ export default function SectionItem({
 												)}
 												{figmaLink && (
 													<SocialButton
-														bg="/prtfolio/icons/Figma.svg"
-														bgLofi="/prtfolio/icons/FigmaLo.svg"
+														bg="/portfolio-nxtjs/icons/Figma.svg"
+														bgLofi="/portfolio-nxtjs/icons/FigmaLo.svg"
 														href={figmaLink}
 														isLofi={isLofi}
 														isProyect
@@ -262,8 +262,8 @@ export default function SectionItem({
 												)}
 												{behanceLink && (
 													<SocialButton
-														bg="/prtfolio/icons/Behance.svg"
-														bgLofi="/prtfolio/icons/BehanceLo.svg"
+														bg="/portfolio-nxtjs/icons/Behance.svg"
+														bgLofi="/portfolio-nxtjs/icons/BehanceLo.svg"
 														href={behanceLink}
 														isLofi={isLofi}
 														isProyect
@@ -271,8 +271,8 @@ export default function SectionItem({
 												)}
 												{externalLink && (
 													<SocialButton
-														bg="/prtfolio/icons/Link2.svg"
-														bgLofi="/prtfolio/icons/LinkLo.svg"
+														bg="/portfolio-nxtjs/icons/Link2.svg"
+														bgLofi="/portfolio-nxtjs/icons/LinkLo.svg"
 														href={externalLink}
 														isLofi={isLofi}
 														isProyect
@@ -280,8 +280,8 @@ export default function SectionItem({
 												)}
 												{linkedInLink && (
 													<SocialButton
-														bg="/prtfolio/icons/LinkedIn.svg"
-														bgLofi="/prtfolio/icons/LinkedInLo.svg"
+														bg="/portfolio-nxtjs/icons/LinkedIn.svg"
+														bgLofi="/portfolio-nxtjs/icons/LinkedInLo.svg"
 														href={linkedInLink}
 														isLofi={isLofi}
 														isProyect

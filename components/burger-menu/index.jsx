@@ -29,7 +29,7 @@ export default function BurgerMenu({
 									className="ml-3 cursor-pointer w-4"
 									onClick={handleClickCloseMenu}>
 									<Image
-										src="/prtfolio/icons/close.png"
+										src="/portfolio-nxtjs/icons/close.png"
 										alt="cerrar menú"
 										width="20"
 										height="20"
@@ -50,7 +50,7 @@ export default function BurgerMenu({
 									onClick={handleClickCloseMenu}>
 									<div className="flex gap-8 items-center">
 										<Image
-											src="/prtfolio/icons/perfil.svg"
+											src="/portfolio-nxtjs/icons/perfil.svg"
 											width="30"
 											height="30"
 											alt="sobre mi"
@@ -63,7 +63,7 @@ export default function BurgerMenu({
 									onClick={handleClickCloseMenu}>
 									<div className="flex gap-8 items-center">
 										<Image
-											src="/prtfolio/icons/proyectos.svg"
+											src="/portfolio-nxtjs/icons/proyectos.svg"
 											width="30"
 											height="30"
 											alt="proyectos"
@@ -76,7 +76,7 @@ export default function BurgerMenu({
 									onClick={handleClickCloseMenu}>
 									<div className="flex gap-8 items-center">
 										<Image
-											src="/prtfolio/icons/contacto.svg"
+											src="/portfolio-nxtjs/icons/contacto.svg"
 											width="30"
 											height="30"
 											alt="perfil"
