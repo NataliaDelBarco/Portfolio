@@ -197,7 +197,7 @@ export default function SectionItem({
 												{linkedInLink && (
 													<SocialButton
 														bg="/portfolio/icons/Linkedin.svg"
-														bgLofi="/portfolio/icons/LinkedInLo.svg"
+														bgLofi="/portfolio/icons/LinkedinLo.svg"
 														href={linkedInLink}
 														isLofi={isLofi}
 														isProyect
@@ -281,7 +281,7 @@ export default function SectionItem({
 												{linkedInLink && (
 													<SocialButton
 														bg="/portfolio/icons/Linkedin.svg"
-														bgLofi="/portfolio/icons/LinkedInLo.svg"
+														bgLofi="/portfolio/icons/LinkedinLo.svg"
 														href={linkedInLink}
 														isLofi={isLofi}
 														isProyect
