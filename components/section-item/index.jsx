@@ -106,7 +106,7 @@ export default function SectionItem({
 									{linkedInLink && (
 										<SocialButton
 											bg="/portfolio/icons/Linkedin.svg"
-											bgLofi="/portfolio/icons/LinkedInLo.svg"
+											bgLofi="/portfolio/icons/LinkedinLo.svg"
 											href={linkedInLink}
 											isLofi={isLofi}
 											isProyect
@@ -143,7 +143,7 @@ export default function SectionItem({
 												role={role}
 											/>
 										</div>
-										<div className="mt-2 text-md dark:bg-white border-[1px] border-transparent -ml-4 dark:ml-0 transition-all duration-75 dark:backdrop-blur-3xl dark:rounded-2xl">
+										<div className="mt-2 text-md dark:bg-white border-[1px] border-transparent dark:ml-0 transition-all duration-75 dark:backdrop-blur-3xl dark:rounded-2xl">
 											<p>{content}</p>
 										</div>
 
@@ -228,7 +228,7 @@ export default function SectionItem({
 												role={role}
 											/>
 										</div>
-										<div className="mt-2 text-md dark:bg-white border-[1px] border-transparent ml-4 dark:ml-0 transition-all duration-75 dark:backdrop-blur-3xl dark:rounded-2xl">
+										<div className="mt-2 text-md dark:bg-white border-[1px] border-transparent dark:ml-0 transition-all duration-75 dark:backdrop-blur-3xl dark:rounded-2xl">
 											<p>{content}</p>
 										</div>
 										<div className="text-center">
