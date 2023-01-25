@@ -33,7 +33,7 @@ export const proyectsUI_UX = [
 		title: 'Feature Tinder',
 		date: 'Nov. 2022',
 		imageSrc: '/portfolio/img/TinderFeature.png',
-		duration: '15 días',
+		duration: '5 días',
 		role: 'Product Designer',
 		typeOfWork: 'Grupal',
 		mediumLink:
