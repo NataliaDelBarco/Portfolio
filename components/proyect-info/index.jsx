@@ -7,7 +7,7 @@ export default function ProyectInfo({ duration, typeOfWork, role }) {
 		<>
 			{duration && typeOfWork && role && (
 				<div className="h-14 flex gap-2 items-center justify-between w-full rounded-2xl">
-					<div className="flex flex-row items-center gap-2 text-left border-[1px] border-black p-[0.5rem] md:p-[8px] rounded-full bg-white h-3/4">
+					<div className="flex flex-row items-center gap-1 md:gap-2 text-left border-[1px] border-black p-[0.5rem] md:p-[8px] rounded-full bg-white h-3/4">
 						<Image
 							src={
 								isLofi
@@ -22,7 +22,7 @@ export default function ProyectInfo({ duration, typeOfWork, role }) {
 							{duration}
 						</span>
 					</div>
-					<div className="flex flex-row items-center gap-2 text-left border-[1px] border-black p-[0.5rem] md:p-[8px] rounded-full bg-white h-3/4">
+					<div className="flex flex-row items-center gap-1 md:gap-2 text-left border-[1px] border-black p-[0.5rem] md:p-[8px] rounded-full bg-white h-3/4">
 						<Image
 							src={
 								isLofi
@@ -37,7 +37,7 @@ export default function ProyectInfo({ duration, typeOfWork, role }) {
 							{role}
 						</span>
 					</div>
-					<div className="flex flex-row items-center gap-2 text-left border-[1px] border-black p-[0.5rem] md:p-[8px] rounded-full bg-white h-3/4">
+					<div className="flex flex-row items-center gap-1 md:gap-2 text-left border-[1px] border-black p-[0.5rem] md:p-[8px] rounded-full bg-white h-3/4">
 						<Image
 							src={
 								isLofi
