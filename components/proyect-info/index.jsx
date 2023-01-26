@@ -18,7 +18,7 @@ export default function ProyectInfo({ duration, typeOfWork, role }) {
 							height={25}
 							alt="Tiempo de proyecto"
 						/>
-						<span className="text-[10px] whitespace-nowrap lg:text-lg md:text-md text-center">
+						<span className="text-[10px] lg:text-lg md:text-md text-center">
 							{duration}
 						</span>
 					</div>
@@ -33,7 +33,7 @@ export default function ProyectInfo({ duration, typeOfWork, role }) {
 							height={25}
 							alt="Rol desempeñado"
 						/>
-						<span className="text-[10px] whitespace-nowrap lg:text-lg md:text-md text-center">
+						<span className="text-[10px] lg:text-lg md:text-md text-center">
 							{role}
 						</span>
 					</div>
@@ -48,7 +48,7 @@ export default function ProyectInfo({ duration, typeOfWork, role }) {
 							height={25}
 							alt="Modalidad de trabajo"
 						/>
-						<span className="text-[10px] whitespace-nowrap lg:text-lg md:text-md text-center">
+						<span className="text-[10px] lg:text-lg md:text-md text-center">
 							{typeOfWork}
 						</span>
 					</div>
