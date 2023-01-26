@@ -307,7 +307,7 @@ export default function SectionItem({
 							initial={{ opacity: 0 }}
 							whileInView={{ opacity: 1 }}
 							transition={{ duration: 1 }}
-							className="w-full h-[7dvh] md:h-[4vh] flex justify-center items-center">
+							className="w-full h-[7vh] md:h-[4vh] flex justify-center items-center">
 							{nextProyect && (
 								<a href={nextProyectHref}>
 									<ButtonSection text={nextProyect} />
