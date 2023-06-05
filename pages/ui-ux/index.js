@@ -10,9 +10,20 @@ import { proyectsUI_UX } from '../../modules/proyects/ui-ux/proyectsEnum'
 import Head from 'next/head'
 import ProyectHeader from '../../components/project-header'
 import useCtxLofi from '../../hooks/theme/useLofiThemeState'
+import { useEffect, useState } from 'react'
+import createLog from '../../modules/supabase/createLog'
 
 export default function UIUX() {
 	const [isLofi] = useCtxLofi()
+	const [dateOfEnter, setDateOfEnter] = useState(null)
+
+	useEffect(() => {
+		if (dateOfEnter === null) {
+			setDateOfEnter(new Date())
+		} else if (!process.env?.NEXT_PUBLIC_IS_DEV_ENV) {
+			createLog()
+		}
+	}, [dateOfEnter])
 
 	return (
 		<>

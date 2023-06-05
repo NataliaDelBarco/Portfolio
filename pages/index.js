@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import CardButton from '../components/card-button'
 import Header from '../components/header'
@@ -11,10 +11,21 @@ import { getTextStyle } from '../modules/style/textStyle'
 import useCtxDark from '../hooks/theme/useLofiThemeState'
 import Title from '../components/title'
 
+import createLog from '../modules/supabase/createLog'
+
 export default function Home() {
 	const [lofiToggle] = useCtxDark()
 	const [isToggleMenu, setIsToggleMenu] = useState(false)
+	const [dateOfEnter, setDateOfEnter] = useState(null)
 	const textStyle = getTextStyle(lofiToggle)
+
+	useEffect(() => {
+		if (dateOfEnter === null) {
+			setDateOfEnter(new Date())
+		} else if (!process.env.NEXT_PUBLIC_IS_DEV_ENV) {
+			createLog()
+		}
+	}, [dateOfEnter])
 
 	return (
 		<>

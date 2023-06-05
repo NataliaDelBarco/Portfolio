@@ -9,9 +9,20 @@ import ProyectHeader from '../../components/project-header'
 import useCtxLofi from '../../hooks/theme/useLofiThemeState'
 import Title from '../../components/title'
 import Head from 'next/head'
+import { useEffect, useState } from 'react'
+import createLog from '../../modules/supabase/createLog'
 
 export default function DisenoGrafico() {
 	const [isLofi] = useCtxLofi()
+	const [dateOfEnter, setDateOfEnter] = useState(null)
+
+	useEffect(() => {
+		if (dateOfEnter === null) {
+			setDateOfEnter(new Date())
+		} else if (!process.env?.NEXT_PUBLIC_IS_DEV_ENV) {
+			createLog()
+		}
+	}, [dateOfEnter])
 
 	return (
 		<>
