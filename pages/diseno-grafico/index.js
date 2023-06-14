@@ -19,7 +19,7 @@ export default function DisenoGrafico() {
 	useEffect(() => {
 		if (dateOfEnter === null) {
 			setDateOfEnter(new Date())
-		} else if (!process.env?.NEXT_PUBLIC_IS_DEV_ENV) {
+		} else if (!process.env.NEXT_PUBLIC_IS_DEV_ENV) {
 			createLog()
 		}
 	}, [dateOfEnter])
