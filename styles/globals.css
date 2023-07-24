@@ -49,5 +49,4 @@ input:checked~.block {
 .sobreMi::-webkit-scrollbar-thumb {
     background: white;
     border-radius: 25px;
-    border: 1px solid #00000058;
 }
