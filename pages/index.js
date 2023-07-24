@@ -84,7 +84,7 @@ export default function Home() {
 										<br/>
 										Me llamo Natalia y entre otras muchas cosas soy{' '}
 										<b className="font-bold">
-											Diseñadora de Producto UX/UI,
+											Diseñadora de Producto UX/UI,{' '}
 										</b>
 										desde hace 6 años me he centrado en estudiar el diseño y comprender cómo comunicar al usuario de una forma perspicaz y visual. Mi cometido es ayudar a gestionar una experiencia de usuario e interfaz exitosa en el menor tiempo posible, realizando un trabajo interdisciplinar, centrado en el ser humano. He trabajado en proyectos para particulares y empresas; en la industria de la publicidad, marketing, comunicación, farmacéutica y de energía.
 										Gracias a los conocimientos en Diseño Gráfico, pongo en uso toda la creatividad y conocimientos prácticos en mi trabajo.
