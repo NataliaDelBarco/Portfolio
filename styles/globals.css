@@ -40,6 +40,14 @@ input:checked~.block {
 }
 
 /* Let's get this party started */
-::-webkit-scrollbar {
-    width: 0px;
+.sobreMi::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 25px;
+    background: #B4AAF1;
+}
+
+.sobreMi::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 25px;
+    border: 1px solid #00000058;
 }
