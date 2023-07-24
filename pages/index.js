@@ -81,7 +81,7 @@ export default function Home() {
 
 										<p className="md:mr-12 pt-4 pr-4 md:pt-10 md:h-[55vh] md:overflow-y-scroll pb-20 text-sm md:text-md lg:text-lg">
 											<span>¡Hola!</span>
-										</br>
+										<br/>
 										Me llamo Natalia y entre otras muchas cosas soy{' '}
 										<b className="font-bold">
 											Diseñadora de Producto UX/UI,
