@@ -79,7 +79,7 @@ export default function Home() {
 											<Title>Sobre mí</Title>
 										</div>
 
-										<p className="md:mr-12 pt-4 pr-4 md:pt-10 md:h-[55vh] h-[37vh] overflow-y-auto pb-20 text-sm md:text-sm lg:text-md sobreMi">
+										<p className="md:mr-12 pt-4 pr-4 md:pt-10 md:h-[55vh] h-[37vh] overflow-y-auto pb-20 text-sm md:text-md lg:text-md sobreMi">
 											<span>¡Hola!</span>
 										<br/>
 										Me llamo Natalia y entre otras muchas cosas soy{' '}
