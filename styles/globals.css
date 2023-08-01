@@ -50,3 +50,15 @@ input:checked~.block {
     background: white;
     border-radius: 25px;
 }
+
+.dark .sobreMi::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 25px;
+    background: #000;
+}
+
+.dark .sobreMi::-webkit-scrollbar-thumb {
+    background: white;
+    border: 1px solid #000;
+    border-radius: 25px;
+}
