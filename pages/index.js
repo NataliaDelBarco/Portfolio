@@ -74,12 +74,12 @@ export default function Home() {
 							id="sobre-mi">
 							<div>
 								<div className="flex flex-col md:flex-row items-center justify-center h-full">
-									<div className="w-full md:h-[60vh] h-[50vh] overflow-auto -mt-8 md:mt-0 md:w-1/2">
+									<div className="w-full md:h-[60vh] -mt-8 md:mt-0 md:w-1/2">
 										<div className="md:pt-4">
 											<Title>Sobre mí</Title>
 										</div>
 
-										<p className="md:mr-12 pt-4 pr-4 md:pt-10 md:h-[55vh] md:overflow-y-scroll pb-20 text-sm md:text-sm lg:text-md sobreMi">
+										<p className="md:mr-12 pt-4 pr-4 md:pt-10 md:h-[55vh] h-[37vh] overflow-y-auto pb-20 text-sm md:text-sm lg:text-md sobreMi">
 											<span>¡Hola!</span>
 										<br/>
 										Me llamo Natalia y entre otras muchas cosas soy{' '}
