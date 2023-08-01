@@ -92,7 +92,7 @@ export default function Home() {
 										¿Lo que más me motiva de mi trabajo? el poder mejorar la experiencia del usuario al interactuar con el producto, con un diseño bien enfocado, visual y perspicaz.
 									</p>
 								</div>
-								<div className="flex items-center -mt-14 md:my-0 w-full md:w-1/2 h-full justify-center md:justify-between mx-auto md:ml-32">
+								<div className="flex items-center mt-[4vh] md:-mt-14 md:my-0 w-full md:w-1/2 h-full justify-center md:justify-between mx-auto md:ml-32">
 									<div className="bg-[url('/portfolio/img/PerfilHiFi.png')] dark:bg-[url('/portfolio/img/PerfilLoFi.webp')] h-48 w-48 md:h-[30rem] md:w-[30rem] bg-contain bg-no-repeat transition-all duration-200"></div>
 								</div>
 							</div>
