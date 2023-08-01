@@ -74,7 +74,7 @@ export default function Home() {
 							id="sobre-mi">
 							<div>
 								<div className="flex flex-col md:flex-row items-center justify-center h-full">
-									<div className="w-full md:h-[60vh] -mt-8 md:mt-0 md:w-1/2">
+									<div className="w-full md:h-[60vh] h-[50vh] overflow-auto -mt-8 md:mt-0 md:w-1/2">
 										<div className="md:pt-4">
 											<Title>Sobre mí</Title>
 										</div>
