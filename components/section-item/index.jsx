@@ -28,13 +28,13 @@ export default function SectionItem({
 	return (
 		<>
 			<div
-				className="md:pt-0 h-[100vh] md:h-[100vh] my-[5vh] md:my-0 flex flex-col snap-proximity"
+				className="md:pt-0 h-[100dvh] md:h-[100dvh] my-[5dvh] md:my-0 flex flex-col snap-proximity"
 				id={id}>
 				<motion.div
 					initial={{ opacity: 0 }}
 					whileInView={{ opacity: 1 }}
 					transition={{ duration: 1 }}
-					className="w-full relative flex justify-center items-start snap-start -mt-3 md:h-[15vh] h-[10vh] md:mt-0">
+					className="w-full relative flex justify-center items-start snap-start -mt-3 md:h-[15dvh] h-[10dvh] md:mt-0">
 					{prevProyect && (
 						<a href={prevProyectHref}>
 							<ButtonSection text={prevProyect} isPrev="true" />
@@ -45,7 +45,7 @@ export default function SectionItem({
 					initial={{ opacity: 0 }}
 					whileInView={{ opacity: 1 }}
 					transition={{ duration: 1 }}
-					className="md:h-[60vh] h-[70vh] overflow-auto">
+					className="md:h-[60dvh] h-[70dvh] overflow-auto">
 					<div className="md:hidden flex flex-col items-center mx-8 md:gap-0 gap-2">
 						<div className="md:w-[40vw] md:h-[40vw] my-5">
 							<div
@@ -57,13 +57,13 @@ export default function SectionItem({
 						<div className="w-full text-center mb-4">
 							<Title notChangeStyle>{title}</Title>
 						</div>
-						<div className="w-full h-[10vh]">
+						<div className="w-full h-[10ddvh]">
 							<ProyectInfo
 								duration={duration}
 								typeOfWork={typeOfWork}
 								role={role}
 							/>
-							<p className="mt-3 text-sm h-[22vh] overflow-y-scroll dark:bg-white p-4 dark:rounded-3xl">
+							<p className="mt-3 text-sm h-[22dvh] overflow-y-scroll dark:bg-white p-4 dark:rounded-3xl">
 								{content}
 							</p>
 							<div className="flex flex-row justify-center gap-4 py-2 md:py-4">
@@ -141,7 +141,7 @@ export default function SectionItem({
 											role={role}
 										/>
 									</div>
-									<div className="mt-2 text-md dark:bg-white border-[1px] md:h-[25vh] overflow-y-scroll border-transparent dark:ml-0 transition-all duration-75 dark:backdrop-blur-3xl dark:rounded-2xl">
+									<div className="mt-2 text-md dark:bg-white border-[1px] md:h-[25dvh] overflow-y-scroll border-transparent dark:ml-0 transition-all duration-75 dark:backdrop-blur-3xl dark:rounded-2xl">
 										<p>{content}</p>
 									</div>
 
@@ -226,7 +226,7 @@ export default function SectionItem({
 											role={role}
 										/>
 									</div>
-									<div className="mt-2 text-md dark:bg-white border-[1px] md:h-[25vh] overflow-y-scroll border-transparent dark:ml-0 transition-all duration-75 dark:backdrop-blur-3xl dark:rounded-2xl">
+									<div className="mt-2 text-md dark:bg-white border-[1px] md:h-[25dvh] overflow-y-scroll border-transparent dark:ml-0 transition-all duration-75 dark:backdrop-blur-3xl dark:rounded-2xl">
 										<p>{content}</p>
 									</div>
 									<div className="text-center">
@@ -300,12 +300,12 @@ export default function SectionItem({
 						</div>
 					)}
 				</motion.section>
-				<div className="flex items-center md:h-[15vh] h-[10vh]">
+				<div className="flex items-center md:h-[15dvh] h-[10dvh]">
 					<motion.div
 						initial={{ opacity: 0 }}
 						whileInView={{ opacity: 1 }}
 						transition={{ duration: 1 }}
-						className="w-full md:h-[4vh] md:mt-0 flex justify-center items-center">
+						className="w-full md:h-[4dvh] md:mt-0 flex justify-center items-center">
 						{nextProyect && (
 							<a href={nextProyectHref}>
 								<ButtonSection text={nextProyect} />

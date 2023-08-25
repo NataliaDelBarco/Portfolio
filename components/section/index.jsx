@@ -12,7 +12,7 @@ export default function Section({
 	return (
 		<>
 			<section
-				className="h-[100vh] pt-[10vh] mx-8 md:mx-28 snap-start transition-all"
+				className="h-[100dvh] pt-[10dvh] mx-8 md:mx-28 snap-start transition-all"
 				id={id}>
 				<motion.div
 					initial={{ opacity: 0 }}

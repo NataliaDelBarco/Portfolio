@@ -38,9 +38,9 @@ export default function UIUX() {
 						className="bg-[url(/portfolio/img/ProyectosUXhifi.svg)] dark:bg-[url(/portfolio/img/ProyectosUXlofi.svg)] bg-no-repeat m-0 bg-cover w-screen">
 						<div>
 							<ProyectHeader />
-							<div className="snap snap-y snap-mandatory h-[90vh] w-screen overflow-y-scroll">
-								<section className="h-[100vh] mx-8 text-center ">
-									<div className="snap-start h-[10vh] flex justify-center items-center">
+							<div className="snap snap-y snap-mandatory h-[90dvh] w-screen overflow-y-scroll">
+								<section className="h-[100dvh] mx-8 text-center ">
+									<div className="snap-start h-[10dvh] flex justify-center items-center">
 										<span className="font-serif text-4xl md:text-4xl">
 											Proyectos UX/UI
 										</span>
@@ -119,7 +119,7 @@ export default function UIUX() {
 										)
 									})}
 									<section
-										className="md:pt-0 h-[100vh] md:h-[100vh] my-[5vh] md:my-0 flex flex-col justify-center snap-start"
+										className="md:pt-0 h-[100dvh] md:h-[100dvh] my-[5dvh] md:my-0 flex flex-col justify-center snap-start"
 										id="contacta">
 										<div className="w-full pt-0 md:pt-0 mx-auto text-center">
 											<span className="font-serif px-2 md:px-0 text-6xl md:text-8xl transition-all duration-200">

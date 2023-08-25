@@ -38,7 +38,7 @@ export default function DisenoGrafico() {
 						<div>
 							<ProyectHeader />
 							<div className="snap snap-y snap-mandatory h-screen w-screen overflow-y-scroll">
-								<section className="h-[70vh] mb-[30vh] md:mt-[10vh] mx-8 text-center flex items-center justify-center md:items-start snap-start">
+								<section className="h-[70dvh] mb-[30dvh] md:mt-[10dvh] mx-8 text-center flex items-center justify-center md:items-start snap-start">
 									<div className="flex flex-col gap-10 md:gap-20">
 										<div className="mt-10">
 											<Title notChangeStyle>
@@ -141,7 +141,7 @@ export default function DisenoGrafico() {
 								</div>
 
 								<section
-									className="md:pt-0 h-[100vh] md:h-[100vh] my-[5vh] md:my-0 flex flex-col justify-center snap-start"
+									className="md:pt-0 h-[100dvh] md:h-[100dvh] my-[5dvh] md:my-0 flex flex-col justify-center snap-start"
 									id="contacta">
 									<div className="w-full pt-0 md:pt-0 mx-auto text-center">
 										<span className="font-serif px-2 md:px-0 text-6xl md:text-8xl transition-all duration-200">

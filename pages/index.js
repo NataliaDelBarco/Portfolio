@@ -75,12 +75,12 @@ export default function Home() {
 								id="sobre-mi">
 								<div>
 									<div className="flex flex-col md:flex-row items-center justify-center h-full">
-										<div className="w-full md:h-[60vh] -mt-8 md:mt-0 md:w-1/2">
+										<div className="w-full md:h-[60dvh] -mt-8 md:mt-0 md:w-1/2">
 											<div className="pt-4">
 												<Title>Sobre mí</Title>
 											</div>
 
-											<p className="md:mr-12 pt-4 pr-4 md:pt-10 md:h-[55vh] h-[30vh] overflow-y-auto pb-[2vh] text-sm md:text-lg lg:text-md sobreMi">
+											<p className="md:mr-12 pt-4 pr-4 md:pt-10 md:h-[55dvh] h-[30dvh] overflow-y-auto pb-[2dvh] text-sm md:text-lg lg:text-md sobreMi">
 												<span>¡Hola!</span>
 												<br />
 												Me llamo Natalia y entre otras
@@ -126,7 +126,7 @@ export default function Home() {
 												enfocado, visual y perspicaz.
 											</p>
 										</div>
-										<div className="flex items-center mt-[4vh] md:-mt-14 md:my-0 w-full md:w-1/2 h-full justify-center md:justify-between mx-auto md:ml-32">
+										<div className="flex items-center mt-[4dvh] md:-mt-14 md:my-0 w-full md:w-1/2 h-full justify-center md:justify-between mx-auto md:ml-32">
 											<div className="bg-[url('/portfolio/img/PerfilHiFi.png')] dark:bg-[url('/portfolio/img/PerfilLoFi.webp')] h-48 w-48 md:h-[30rem] md:w-[30rem] bg-contain bg-no-repeat transition-all duration-200"></div>
 										</div>
 									</div>
@@ -160,11 +160,8 @@ export default function Home() {
 									/>
 								</div>
 							</Section>
-							<Section
-								prevSection="Proyectos"
-								prevSectionHref="#proyectos"
-								id="contacta-conmigo">
-								<div className="w-full pt-20 mx-auto text-center">
+							<Section id="contacta-conmigo">
+								<div className="w-full mx-auto text-center">
 									<Title>¡Contacta conmigo!</Title>
 								</div>
 								<div className="flex gap-5  h-5 mt-24 justify-center items-center">
