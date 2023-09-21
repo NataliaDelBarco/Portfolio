@@ -63,7 +63,7 @@ export default function SectionItem({
 								typeOfWork={typeOfWork}
 								role={role}
 							/>
-							<p className="mt-3 text-sm h-[22dvh] overflow-y-auto dark:bg-white p-4 dark:rounded-3xl">
+							<p className="mt-3 text-sm h-[22dvh] overflow-y-auto dark:bg-white py-4 dark:rounded-3xl">
 								{content}
 							</p>
 							<div className="flex flex-row justify-center gap-4 py-2 md:py-4">
@@ -141,7 +141,7 @@ export default function SectionItem({
 											role={role}
 										/>
 									</div>
-									<div className="mt-2 text-md dark:bg-white border-[1px] md:h-[25dvh] overflow-y-auto p-4 border-transparent dark:ml-0 transition-all duration-75 dark:backdrop-blur-3xl dark:rounded-2xl">
+									<div className="mt-2 text-md dark:bg-white border-[1px] md:h-[25dvh] overflow-y-auto py-4 border-transparent dark:ml-0 transition-all duration-75 dark:backdrop-blur-3xl dark:rounded-2xl">
 										<p>{content}</p>
 									</div>
 
@@ -226,7 +226,7 @@ export default function SectionItem({
 											role={role}
 										/>
 									</div>
-									<div className="mt-2 text-md dark:bg-white border-[1px] md:h-[25dvh] overflow-y-auto p-4 border-transparent dark:ml-0 transition-all duration-75 dark:backdrop-blur-3xl dark:rounded-2xl">
+									<div className="mt-2 text-md dark:bg-white border-[1px] md:h-[25dvh] overflow-y-auto py-4 border-transparent dark:ml-0 transition-all duration-75 dark:backdrop-blur-3xl dark:rounded-2xl">
 										<p>{content}</p>
 									</div>
 									<div className="text-center">
