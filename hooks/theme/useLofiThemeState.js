@@ -3,7 +3,7 @@ import { useState, createContext, useContext, useMemo } from 'react'
 const lofiContext = createContext(null)
 
 export const LofiProvider = ({ children }) => {
-	const [lofi, setLofi] = useState(false)
+	const [lofi, setLofi] = useState(true)
 	const manageLofiToggle = () => setLofi(!lofi)
 
 	const lofiValue = useMemo(() => [lofi, manageLofiToggle], [lofi])
