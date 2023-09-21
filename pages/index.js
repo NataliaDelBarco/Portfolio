@@ -108,7 +108,7 @@ export default function Home() {
 												Diseño Gráfico, pongo en uso
 												toda la creatividad y
 												conocimientos prácticos en mi
-												trabajo. Para saber un poquito
+												trabajo. <br />Para saber un poquito
 												más sobre mí tendrás que saber
 												que soy amante de todos los
 												animales (excepto bichos
