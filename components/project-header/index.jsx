@@ -23,8 +23,13 @@ export default function ProyectHeader({ language }) {
 						/>
 					</Link>
 				</div>
-				<div className="font-serif text-xl md:w-1/3 w-3/5 text-center">
-					<span className="font-serif">Natalia del Barco</span>
+				<div className="md:w-1/3 w-3/5 flex justify-center text-center">
+					<Image
+						src="/portfolio/img/Union.png"
+						width="50"
+						height="50"
+						alt="logo"
+					/>
 				</div>
 				<div className="md:w-1/3 w-3/5 flex md:justify-end md:mr-6 justify-center self-end">
 					<ToggleTheme />
