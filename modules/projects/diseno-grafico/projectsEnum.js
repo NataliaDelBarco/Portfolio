@@ -1,4 +1,4 @@
-export const proyectsDisenoGrafico = [
+export const projectsDisenoGrafico = [
 	{
 		title: 'Terretup',
 		date: 'May. 2021',

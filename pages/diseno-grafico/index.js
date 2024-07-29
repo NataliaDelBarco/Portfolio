@@ -4,7 +4,7 @@ import SectionItem from '../../components/section-item'
 import CardButton from '../../components/card-button'
 import SocialButton from '../../components/social-button'
 import ButtonSection from '../../components/button-section'
-import { proyectsDisenoGrafico } from '../../modules/proyects/diseno-grafico/proyectsEnum'
+import { projectsDisenoGrafico } from '../../modules/projects/diseno-grafico/projectsEnum'
 import ProyectHeader from '../../components/project-header'
 import useCtxLofi from '../../hooks/theme/useLofiThemeState'
 import Title from '../../components/title'
@@ -52,7 +52,7 @@ export default function DisenoGrafico() {
 										</div>
 										<div className="flex justify-center items-center">
 											<div className="grid grid-cols-2 lg:grid-cols-4 justify-items-center md:px-[5vw] gap-8 md:w-full justify-center">
-												{proyectsDisenoGrafico.map(
+												{projectsDisenoGrafico.map(
 													(proyect, index) => {
 														return (
 															<CardButton
@@ -81,12 +81,12 @@ export default function DisenoGrafico() {
 									</div>
 								</section>
 								<div>
-									{proyectsDisenoGrafico.map(
+									{projectsDisenoGrafico.map(
 										(proyect, index) => {
 											const prevProyect =
-												proyectsDisenoGrafico[index - 1]
+												projectsDisenoGrafico[index - 1]
 											const nextProyect =
-												proyectsDisenoGrafico[index + 1]
+												projectsDisenoGrafico[index + 1]
 
 											const {
 												title,

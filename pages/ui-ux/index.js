@@ -6,7 +6,7 @@ import SectionItem from '../../components/section-item'
 import CardButton from '../../components/card-button'
 import SocialButton from '../../components/social-button'
 import ButtonSection from '../../components/button-section'
-import { proyectsUI_UX } from '../../modules/proyects/ui-ux/proyectsEnum'
+import { projectsUI_UX } from '../../modules/projects/ui-ux/projectsEnum'
 import Head from 'next/head'
 import ProyectHeader from '../../components/project-header'
 import useCtxLofi from '../../hooks/theme/useLofiThemeState'
@@ -46,7 +46,7 @@ export default function UIUX() {
 										</span>
 									</div>
 									<div className="grid grid-cols-2 md:grid-cols-3 justify-items-center md:px-32 gap-8 md:w-full mt-10 md:mt-10 justify-center">
-										{proyectsUI_UX.map((proyect, index) => {
+										{projectsUI_UX.map((proyect, index) => {
 											return (
 												<CardButton
 													key={index}
@@ -63,11 +63,11 @@ export default function UIUX() {
 									</div>
 								</section>
 								<div>
-									{proyectsUI_UX.map((proyect, index) => {
+									{projectsUI_UX.map((proyect, index) => {
 										const prevProyect =
-											proyectsUI_UX[index - 1]
+											projectsUI_UX[index - 1]
 										const nextProyect =
-											proyectsUI_UX[index + 1]
+											projectsUI_UX[index + 1]
 
 										const {
 											title,
