@@ -62,7 +62,13 @@ export default function Home() {
 									transition={{ delay: 1, duration: 2 }}
 									className="font-serif text-4xl text-center pt-32 md:pt-0 md:text-start md:text-8xl dark:text-transparent transition-all duration-200"
 									style={textStyle}>
-									Portfolio <br />
+									¡Hola! Soy
+								</motion.h1>
+								<motion.h1
+									{...animationOpacitySettings}
+									transition={{ delay: 1, duration: 2 }}
+									className="font-serif mt-5 text-4xl text-center pt-32 md:pt-0 md:text-start md:text-8xl dark:text-transparent transition-all duration-200"
+									style={textStyle}>
 									Natalia del Barco
 								</motion.h1>
 							</Section>
