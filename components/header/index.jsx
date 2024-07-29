@@ -7,6 +7,7 @@ export default function Header({ isToggleMenu, manageToggleMenu }) {
 	const genericHamburgerLine = `h-[0.2rem] w-6 my-[0.1rem] rounded-full bg-black transition ease transform z-30 duration-300`
 	return (
 		<>
+			{/* Dektop */}
 			<motion.header
 				{...animationOpacitySettings}
 				transition={{ delay: 2, duration: 2 }}
@@ -46,6 +47,7 @@ export default function Header({ isToggleMenu, manageToggleMenu }) {
 						</div>
 					</a>
 				</div>
+				{/* Mobile */}
 				<div className="block relative z-20 md:hidden">
 					<button
 						className="flex relative ml-6 flex-col h-10 w-10 outline-0 rounded justify-center items-center group"
@@ -72,6 +74,9 @@ export default function Header({ isToggleMenu, manageToggleMenu }) {
 							}`}
 						/>
 					</button>
+				</div>
+				<div className="w-12">
+					<img src="/portfolio/img/Union.png" alt="logo" />
 				</div>
 				<div className="mr-4">
 					<ToggleTheme />
