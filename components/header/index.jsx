@@ -76,7 +76,12 @@ export default function Header({ isToggleMenu, manageToggleMenu }) {
 					</button>
 				</div>
 				<div className="w-12">
-					<img src="/portfolio/img/Union.png" alt="logo" />
+					<Image
+						src="/portfolio/img/Union.png"
+						width="60"
+						height="60"
+						alt="logo"
+					/>
 				</div>
 				<div className="mr-4">
 					<ToggleTheme />
