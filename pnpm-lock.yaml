@@ -29,9 +29,6 @@ dependencies:
   react-dom:
     specifier: 18.2.0
     version: 18.2.0(react@18.2.0)
-  react-textfit:
-    specifier: ^1.1.1
-    version: 1.1.1(react-dom@18.2.0)(react@18.2.0)
 
 devDependencies:
   autoprefixer:
@@ -2294,11 +2291,6 @@ packages:
     hasBin: true
     dev: true
 
-  /process@0.11.10:
-    resolution: {integrity: sha512-cdGef/drWFoydD1JsMzuFf8100nZl+GT+yacc2bEced5f9Rjk4z+WtFUTBu9PhOi9j/jfmBPu0mMEY4wIdAF8A==}
-    engines: {node: '>= 0.6.0'}
-    dev: false
-
   /prop-types@15.8.1:
     resolution: {integrity: sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==}
     dependencies:
@@ -2330,18 +2322,6 @@ packages:
 
   /react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
-
-  /react-textfit@1.1.1(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-UDSQRo5yBEGueLTE5SgNV9fSmr5CWJkE0E0R0YbcbCO69iuJGfcT6wspKhX2sIwdsDyT9qXOwMC80cnRolir7Q==}
-    peerDependencies:
-      react: ^15.0.0 || ^16.0.0
-      react-dom: ^15.0.0 || ^16.0.0
-    dependencies:
-      process: 0.11.10
-      prop-types: 15.8.1
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-    dev: false
 
   /react@18.2.0:
     resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
