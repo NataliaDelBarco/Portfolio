@@ -1,16 +1,16 @@
 import { motion, AnimatePresence } from 'framer-motion'
-import { animationOpacitySettings } from '../../modules/animation/opacity'
-import SectionItem from '../../components/section-item'
-import CardButton from '../../components/card-button'
-import SocialButton from '../../components/social-button'
-import ButtonSection from '../../components/button-section'
-import { projectsDisenoGrafico } from '../../modules/projects/diseno-grafico/projectsEnum'
-import ProyectHeader from '../../components/project-header'
-import useCtxLofi from '../../hooks/theme/useLofiThemeState'
-import Title from '../../components/title'
+import { animationOpacitySettings } from '../../../modules/animation/opacity'
+import SectionItem from '../../../components/section-item'
+import CardButton from '../../../components/card-button'
+import SocialButton from '../../../components/social-button'
+import ButtonSection from '../../../components/button-section'
+import { projectsDisenoGrafico } from '../../../modules/projects/diseno-grafico/en/projectsEnum'
+import ProyectHeader from '../../../components/project-header'
+import useCtxLofi from '../../../hooks/theme/useLofiThemeState'
+import Title from '../../../components/title'
 import Head from 'next/head'
 import { useEffect, useState } from 'react'
-import createLog from '../../modules/supabase/createLog'
+import createLog from '../../../modules/supabase/createLog'
 
 export default function DisenoGrafico() {
 	const [isLofi] = useCtxLofi()
@@ -27,26 +27,27 @@ export default function DisenoGrafico() {
 	return (
 		<>
 			<Head>
-				<title>Proyectos Diseño Gráfico</title>
+				<title>Graphic Design Projects</title>
 			</Head>
 			<AnimatePresence>
 				<div className={` ${isLofi && 'dark'}`}>
 					<motion.main
 						{...animationOpacitySettings}
-						id="proyectos"
 						className="bg-[url(/portfolio/img/ProyectosDGHiFi.svg)] dark:bg-[url(/portfolio/img/ProyectosDGLoFi.svg)] bg-no-repeat m-0 bg-cover w-screen">
 						<div>
-							<ProyectHeader />
-							<div className="snap snap-y snap-mandatory h-screen w-screen overflow-y-scroll">
+							<ProyectHeader language="en" />
+							<div
+								id="projects"
+								className="snap snap-y snap-mandatory h-screen w-screen overflow-y-scroll">
 								<section className="h-[70dvh] mb-[30dvh] md:mt-[10dvh] mx-8 text-center flex items-center justify-center md:items-start snap-start">
 									<div className="flex flex-col gap-10 md:gap-20">
 										<div className="mt-10">
 											<Title notChangeStyle>
-												Proyectos
+												Graphic Design
 											</Title>
 											<div className="block mt-2">
 												<Title notChangeStyle>
-													Diseño Grafico
+													Projects
 												</Title>
 											</div>
 										</div>
@@ -102,6 +103,7 @@ export default function DisenoGrafico() {
 											return (
 												<SectionItem
 													key={title}
+													language="en"
 													id={title}
 													title={title}
 													isImageInRight={
@@ -117,22 +119,22 @@ export default function DisenoGrafico() {
 													prevProyect={
 														prevProyect
 															? prevProyect.title
-															: 'Proyectos'
+															: 'Projects'
 													}
 													prevProyectHref={
 														prevProyect
 															? `#${prevProyect.title}`
-															: '#proyectos'
+															: '#projects'
 													}
 													nextProyect={
 														nextProyect
 															? nextProyect.title
-															: '¡Contacta Conmigo!'
+															: 'Contact me!'
 													}
 													nextProyectHref={
 														nextProyect
 															? `#${nextProyect.title}`
-															: '#contacta'
+															: '#contact'
 													}
 												/>
 											)
@@ -142,10 +144,10 @@ export default function DisenoGrafico() {
 
 								<section
 									className="md:pt-0 h-[100dvh] md:h-[100dvh] my-[5dvh] md:my-0 flex flex-col justify-center snap-start"
-									id="contacta">
+									id="contact">
 									<div className="w-full pt-0 md:pt-0 mx-auto text-center">
 										<span className="font-serif px-2 md:px-0 text-6xl md:text-8xl transition-all duration-200">
-											¡Contacta conmigo!
+											Contact me!
 										</span>
 									</div>
 									<div className="flex gap-5 h-5 md:h-auto mt-24 justify-center items-center">

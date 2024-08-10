@@ -7,6 +7,7 @@ import useCtxLofi from '../../hooks/theme/useLofiThemeState'
 
 export default function SectionItem({
 	id,
+	language,
 	title,
 	content,
 	duration,
@@ -25,6 +26,13 @@ export default function SectionItem({
 	nextProyectHref
 }) {
 	const [isLofi] = useCtxLofi()
+	const esTexts = {
+		links: 'Enlaces:'
+	}
+	const enTexts = {
+		links: 'Links:'
+	}
+	const texts = language === 'en' ? enTexts : esTexts
 	return (
 		<>
 			<div
@@ -152,7 +160,7 @@ export default function SectionItem({
 											externalLink ||
 											linkedInLink) && (
 											<p className="text-sm mt-4">
-												Enlaces:
+												{texts.links}
 											</p>
 										)}
 										<div className="flex flex-row gap-4 mt-2 w-full justify-center">
@@ -236,7 +244,7 @@ export default function SectionItem({
 											externalLink ||
 											linkedInLink) && (
 											<p className="text-sm mt-4">
-												Enlaces:
+												{texts.links}
 											</p>
 										)}
 										<div className="flex flex-row gap-4 mt-2 w-full justify-center">

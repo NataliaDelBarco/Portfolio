@@ -1,4 +1,4 @@
-export const proyectsUI_UX = [
+export const projectsUI_UX = [
 	{
 		title: 'Custom Lego',
 		date: 'Dic. 2022',

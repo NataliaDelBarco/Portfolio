@@ -1,17 +1,18 @@
 import Head from 'next/head'
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import CardButton from '../components/card-button'
-import Header from '../components/header'
-import Section from '../components/section'
-import SocialButton from '../components/social-button'
-import BurgerMenu from '../components/burger-menu'
-import { animationOpacitySettings } from '../modules/animation/opacity'
-import { getTextStyle } from '../modules/style/textStyle'
-import useCtxDark from '../hooks/theme/useLofiThemeState'
-import Title from '../components/title'
+import CardButton from '../../components/card-button'
+import Header from '../../components/header'
+import Section from '../../components/section'
+import SocialButton from '../../components/social-button'
+import BurgerMenu from '../../components/burger-menu'
+import { animationOpacitySettings } from '../../modules/animation/opacity'
+import { getTextStyle } from '../../modules/style/textStyle'
+import useCtxDark from '../../hooks/theme/useLofiThemeState'
+import Title from '../../components/title'
 
-import createLog from '../modules/supabase/createLog'
+import createLog from '../../modules/supabase/createLog'
+import AboutMe from './about-me'
 
 export default function Home() {
 	const [lofiToggle] = useCtxDark()
@@ -39,6 +40,7 @@ export default function Home() {
 					<main className="bg-[url('/portfolio/img/FondoHiFiM.svg')] dark:bg-[url('/portfolio/img/FondoLoFiM.svg')] md:bg-[url('/portfolio/img/FondoHiFi.svg')] bg-no-repeat m-0 md:dark:bg-[url('/portfolio/img/FondoLoFi.svg')] w-full bg-cover bg-top">
 						<Header
 							isToggleMenu={isToggleMenu}
+							language="en"
 							manageToggleMenu={() =>
 								setIsToggleMenu(!isToggleMenu)
 							}
@@ -53,8 +55,8 @@ export default function Home() {
 						<div className="snap snap-y snap-mandatory h-screen w-screen overflow-y-scroll">
 							{/* Portada */}
 							<Section
-								nextSection="Sobre mí"
-								nextSectionHref="#sobre-mi"
+								nextSection="About Me"
+								nextSectionHref="#about-me"
 								id="intro"
 								isFirstSection={true}>
 								<motion.h1
@@ -62,7 +64,7 @@ export default function Home() {
 									transition={{ delay: 1, duration: 2 }}
 									className="font-serif text-4xl text-center pt-32 md:pt-0 md:text-start md:text-8xl dark:text-transparent transition-all duration-200"
 									style={textStyle}>
-									¡Hola! Soy
+									Hi! I'm
 								</motion.h1>
 								<motion.h1
 									{...animationOpacitySettings}
@@ -72,113 +74,20 @@ export default function Home() {
 									Natalia del Barco
 								</motion.h1>
 							</Section>
-							{/* Sobre mi */}
+							{/* about me */}
 							<Section
 								prevSection="Intro"
 								prevSectionHref="#intro"
-								nextSection="Proyectos"
-								nextSectionHref="#proyectos"
-								id="sobre-mi">
+								nextSection="Projects"
+								nextSectionHref="#projects"
+								id="about-me">
 								<div>
 									<div className="flex flex-col md:flex-row items-center justify-center h-full">
 										<div className="w-full md:h-[60dvh] -mt-8 md:mt-0 md:w-1/2">
 											<div className="pt-4">
-												<Title>Sobre mí</Title>
+												<Title>About me</Title>
 											</div>
-
-											<div className="md:mr-12 pt-4 pr-4 md:pt-10 md:h-[55dvh] h-[30dvh] overflow-y-auto pb-[2dvh] text-sm md:text-[16px] sobreMi">
-												<p>
-													Soy{' '}
-													<span className="font-bold">
-														Diseñadora de Producto
-														UX/UI,{' '}
-													</span>
-													trabajo en UX/UI desde hace
-													casi{' '}
-													<span className="font-bold">
-														3 años
-													</span>
-													, aunque tengo un background
-													de{' '}
-													<span className="font-bold">
-														7 años en Diseño
-														Gráfico,
-													</span>{' '}
-													donde me he centrado en
-													estudiar diseño y entender
-													cómo comunicar al usuario de
-													una forma perspicaz y
-													visual.
-												</p>
-												<br />
-												<p>
-													👩🏽‍💻 Mi misión es ayudar a
-													gestionar una UX y UI
-													exitosa en el menor tiempo
-													posible, haciendo un trabajo
-													interdisciplinario y
-													centrado en el ser humano.
-													He trabajado en proyectos
-													para particulares y
-													empresas; en la{' '}
-													<span className="font-bold">
-														Industria de la
-														Automoción
-													</span>{' '}
-													con{' '}
-													<span className="font-bold">
-														Cupra
-													</span>
-													,
-													<span className="font-bold">
-														{' '}
-														Gobierno de España,
-														Telefónica, Mapfre,{' '}
-													</span>
-													<span className="font-normal">
-														en la industria de la{' '}
-													</span>
-													<span className="font-bold">
-														Publicidad y Marketing,
-														Comunicación, Banca,
-														Financiera, Farmacéutica
-														y Energía.{' '}
-													</span>
-													Gracias a mis conocimientos
-													en Diseño Gráfico, utilizo
-													toda mi creatividad y
-													conocimientos prácticos en
-													mi trabajo
-												</p>
-												<br />
-												<p>
-													🙎🏽‍♀️ Me apasiona la
-													tecnología, me verás en
-													convenciones para aprender
-													más sobre innovación en el
-													mundo tech y mi principal
-													interés es la IA, domótica y
-													tendencias de diseño. Soy
-													casa de acogida de una
-													asociación de animales, me
-													encanta cocinar y
-													experimentar, gamer, hago
-													senderismo para tener las
-													ideas claras, me encanta la
-													fotografía, que me acompaña
-													allá donde voy.
-												</p>
-												<br />
-												<p>
-													💕 ¿Qué es lo que más me
-													motiva de mi trabajo? Poder
-													mejorar la experiencia del
-													usuario al interactuar con
-													el producto, con un diseño
-													bien enfocado y poder
-													aprender de cada proyecto.
-												</p>
-											</div>
+											<AboutMe />
 										</div>
 										<div className="flex items-center mt-[4dvh] md:-mt-14 md:my-0 w-full md:w-1/2 h-full justify-center md:justify-between mx-auto md:ml-32">
 											<div className="bg-[url('/portfolio/img/PerfilHiFi.png')] dark:bg-[url('/portfolio/img/PerfilLoFi.webp')] h-48 w-48 md:h-[30rem] md:w-[30rem] bg-contain bg-no-repeat transition-all duration-200"></div>
@@ -186,15 +95,15 @@ export default function Home() {
 									</div>
 								</div>
 							</Section>
-							{/* Proyectos */}
+							{/* Projects */}
 							<Section
-								prevSection="Sobre Mí"
-								prevSectionHref="#sobre-mi"
-								nextSection="Contacta Conmigo"
-								nextSectionHref="#contacta-conmigo"
-								id="proyectos">
+								prevSection="About Me"
+								prevSectionHref="#about-me"
+								nextSection="Contact me"
+								nextSectionHref="#contact-me"
+								id="projects">
 								<div className="w-full flex justify-center">
-									<Title>Proyectos</Title>
+									<Title>Projects</Title>
 								</div>
 								<div className="w-full h-full flex md:flex-row flex-col justify-evenly md:justify-center md:gap-12 md:-mt-5 items-center">
 									<CardButton
@@ -202,21 +111,21 @@ export default function Home() {
 										title="UX/UI"
 										isLofi={lofiToggle}
 										hasGoToOtherPage
-										routeToGo="/ui-ux"
+										routeToGo="/en/ui-ux"
 										isCardProject
 									/>
 									<CardButton
-										title="Diseño Gráfico"
+										title="Graphic Design"
 										isLofi={lofiToggle}
 										hasGoToOtherPage
-										routeToGo="/diseno-grafico"
+										routeToGo="/en/graphic-design"
 										isCardProject
 									/>
 								</div>
 							</Section>
-							<Section id="contacta-conmigo">
+							<Section id="contact-me">
 								<div className="w-full mx-auto text-center">
-									<Title>¡Contacta conmigo!</Title>
+									<Title>Contact me!</Title>
 								</div>
 								<div className="flex gap-5  h-5 mt-24 justify-center items-center">
 									<SocialButton
