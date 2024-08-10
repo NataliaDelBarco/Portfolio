@@ -51,8 +51,7 @@ export default function CardButton({
 				${
 					isCardProject
 						? 'md:w-72 md:h-72 md:hover:w-[18rem] md:hover:h-[18rem] hover:w-36 hover:h-36'
-						: !isFullScreen &&
-						  'md:w-56 md:h-56 md:hover:w-[13.5rem] md:hover:h-[13.5rem] hover:w-36 hover:h-36'
+						: 'md:w-56 md:h-56 md:hover:w-[13.5rem] md:hover:h-[13.5rem] hover:w-36 hover:h-36'
 				}
 				 transition-all duration-300 hover:shadow-2xl rounded-3xl select-none`}>
 				<div
