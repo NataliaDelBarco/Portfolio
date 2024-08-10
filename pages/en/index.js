@@ -12,6 +12,7 @@ import useCtxDark from '../../hooks/theme/useLofiThemeState'
 import Title from '../../components/title'
 
 import createLog from '../../modules/supabase/createLog'
+import AboutMe from './about-me'
 
 export default function Home() {
 	const [lofiToggle] = useCtxDark()
@@ -68,7 +69,7 @@ export default function Home() {
 								<motion.h1
 									{...animationOpacitySettings}
 									transition={{ delay: 1, duration: 2 }}
-									className="font-serif mt-5 text-4xl text-center pt-32 md:pt-0 md:text-start md:text-8xl dark:text-transparent transition-all duration-200"
+									className="font-serif mt-5 text-4xl text-center pt-6 md:pt-0 md:text-start md:text-8xl dark:text-transparent transition-all duration-200"
 									style={textStyle}>
 									Natalia del Barco
 								</motion.h1>
@@ -86,52 +87,7 @@ export default function Home() {
 											<div className="pt-4">
 												<Title>About me</Title>
 											</div>
-
-											<p className="md:mr-12 pt-4 pr-4 md:pt-10 md:h-[55dvh] h-[30dvh] overflow-y-auto pb-[2dvh] text-sm md:text-lg lg:text-md sobreMi">
-												I'm a UX/UI Product Designer,
-												I've been working in UX/UI for
-												almost 3 years, although I have
-												a background of 6 years in
-												Graphic Design, where I've
-												focused on studying design and
-												understanding how to communicate
-												to the user in an insightful and
-												visual way. My mission is to
-												help manage a successful UX and
-												UI in the shortest time
-												possible, doing
-												interdisciplinary,
-												human-centered work. I have
-												worked on projects for
-												individuals and companies; in
-												the automotive industry with
-												Cupra, Government of Spain,
-												Telefonica, in the advertising
-												and marketing industry,
-												communication, pharmaceutical
-												and energy. Thanks to my
-												knowledge in Graphic Design, I
-												use all my creativity and
-												practical knowledge in my work.
-												I’m passionate about technology,
-												you will see me at conventions
-												to learn more about innovation
-												in the tech world and my main
-												interest is AI, domotics and
-												design trends. I’m a foster home
-												for an animal association, I
-												love cooking and experimenting,
-												gamer, I go trekking to keep my
-												ideas clear, I love photography,
-												which accompanies me wherever I
-												go. What motivates me the most
-												about my work? Being able to
-												improve the user experience when
-												interacting with the product,
-												with a well focused design and
-												being able to learn from each
-												project.
-											</p>
+											<AboutMe />
 										</div>
 										<div className="flex items-center mt-[4dvh] md:-mt-14 md:my-0 w-full md:w-1/2 h-full justify-center md:justify-between mx-auto md:ml-32">
 											<div className="bg-[url('/portfolio/img/PerfilHiFi.png')] dark:bg-[url('/portfolio/img/PerfilLoFi.webp')] h-48 w-48 md:h-[30rem] md:w-[30rem] bg-contain bg-no-repeat transition-all duration-200"></div>

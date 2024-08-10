@@ -5,7 +5,6 @@ import { animationOpacitySettings } from '../../../modules/animation/opacity'
 import SectionItem from '../../../components/section-item'
 import CardButton from '../../../components/card-button'
 import SocialButton from '../../../components/social-button'
-import ButtonSection from '../../../components/button-section'
 import { projectsUI_UX } from '../../../modules/projects/ui-ux/en/projectsEnum'
 import Head from 'next/head'
 import ProyectHeader from '../../../components/project-header'
@@ -35,17 +34,28 @@ export default function UIUX() {
 					<motion.main
 						{...animationOpacitySettings}
 						id="projects"
-						className="bg-[url(/portfolio/img/ProyectosUXhifi.svg)] dark:bg-[url(/portfolio/img/ProyectosUXlofi.svg)] bg-no-repeat m-0 bg-cover w-screen">
+						className="bg-[url(/portfolio/img/FondoHiFi.svg)] dark:bg-[url(/portfolio/img/ProyectosUXlofi.svg)] bg-no-repeat m-0 bg-cover w-screen">
 						<div>
 							<ProyectHeader language="en" />
-							<div className="snap snap-y snap-mandatory h-[90dvh] w-screen overflow-y-scroll">
-								<section className="h-[100dvh] mx-8 text-center ">
+							<div className="snap snap-y snap-mandatory h-[100dvh] w-screen overflow-y-scroll">
+								<section className="h-[100dvh] mx-8 text-center">
 									<div className="snap-start h-[10dvh] flex justify-center items-center">
 										<span className="font-serif text-4xl md:text-4xl">
 											UX/UI Projects
 										</span>
 									</div>
-									<div className="grid grid-cols-2 md:grid-cols-3 justify-items-center md:px-32 gap-8 md:w-full mt-10 md:mt-10 justify-center">
+									<div className="md:flex md:flex-wrap grid-flow-row-dense grid grid-cols-2 md:grid-cols-3 justify-items-center md:px-48 gap-4 md:w-full mt-2 md:mt-10 md:justify-center">
+										<div className="col-span-2 row-span-1 justify-self-stretch mx-2">
+											<CardButton
+												key={-1}
+												title="New Projects"
+												routeToGo="#proffesional"
+												isLofi={isLofi}
+												date="2023-Now"
+												isProffesional={true}
+												isFullScreen={true}
+											/>
+										</div>
 										{projectsUI_UX.map((proyect, index) => {
 											return (
 												<CardButton
@@ -63,6 +73,30 @@ export default function UIUX() {
 									</div>
 								</section>
 								<div>
+									<section
+										id="proffesional"
+										className="font-serif justify-center text-center text-4xl md:text-4xl md:pt-0 h-[100dvh] md:h-[100dvh] my-[5dvh] md:my-0 snap-proximity">
+										<div className="mx-auto snap-start pt-[10dvh] flex flex-col items-center justify-center">
+											<h2> New Projects</h2>
+											<p className="text-lg font-sans px-20 md:px-72 mt-10">
+												I have an extra portfolio with
+												more recent professional
+												projects that may be useful for
+												any hiring process. Make me a
+												request and I will contact you
+												with this information. 😊👩🏽‍💻
+											</p>
+											<div className="mt-6 justify-center">
+												<a href="mailto:nataliadelbarcodesign@gmail.com">
+													<button
+														type="submit"
+														className="font-sans text-[16px] md:px-6 transition-all duration-300 dark:hover:px-14 hover:shadow-2xl dark:hover:shadow-lofi hover:dark:border-4 px-12 rounded-full dark:bg-white dark:border-2 dark:border-black dark:from-white dark:to-white bg-gradient-to-r from-orange-300 to-yellow-100">
+														Send Request
+													</button>
+												</a>
+											</div>
+										</div>
+									</section>
 									{projectsUI_UX.map((proyect, index) => {
 										const prevProyect =
 											projectsUI_UX[index - 1]

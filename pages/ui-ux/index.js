@@ -45,7 +45,19 @@ export default function UIUX() {
 											Proyectos UX/UI
 										</span>
 									</div>
-									<div className="grid grid-cols-2 md:grid-cols-3 justify-items-center md:px-32 gap-8 md:w-full mt-10 md:mt-10 justify-center">
+									<div className="md:flex md:flex-wrap grid-flow-row-dense grid grid-cols-2 md:grid-cols-3 justify-items-center md:px-48 gap-4 md:w-full mt-2 md:mt-10 md:justify-center">
+										<div className="col-span-2 row-span-1 justify-self-stretch mx-2">
+											<CardButton
+												key={-1}
+												title="Nuevos Proyectos"
+												routeToGo="#proffesional"
+												isLofi={isLofi}
+												date="2023-Actualmente"
+												isProffesional={true}
+												isFullScreen={true}
+											/>
+										</div>
+
 										{projectsUI_UX.map((proyect, index) => {
 											return (
 												<CardButton
@@ -63,6 +75,30 @@ export default function UIUX() {
 									</div>
 								</section>
 								<div>
+									<section
+										id="proffesional"
+										className="font-serif justify-center text-center text-4xl md:text-4xl md:pt-0 h-[100dvh] md:h-[100dvh] my-[5dvh] md:my-0 snap-proximity">
+										<div className="mx-auto snap-start pt-[10dvh] flex flex-col items-center justify-center">
+											<h2> Nuevos Proyectos</h2>
+											<p className="text-lg font-sans px-20 md:px-72 mt-10">
+												Dispongo de un portfolio extra
+												con proyectos profesionales más
+												recientes que puede ser útil
+												para cualquier proceso de
+												contratación. Hazme una
+												solicitud y me pondré en
+												contacto contigo con esta
+												información 😊👩🏽‍💻
+											</p>
+											<div className="mt-6 justify-center">
+												<a href="mailto:nataliadelbarcodesign@gmail.com">
+													<button className="font-sans text-[16px] md:px-6 transition-all duration-300 dark:hover:px-14 hover:shadow-2xl dark:hover:shadow-lofi hover:dark:border-4 px-12 rounded-full dark:bg-white dark:border-2 dark:border-black dark:from-white dark:to-white bg-gradient-to-r from-orange-300 to-yellow-100">
+														Mandar solicitud
+													</button>
+												</a>
+											</div>
+										</div>
+									</section>
 									{projectsUI_UX.map((proyect, index) => {
 										const prevProyect =
 											projectsUI_UX[index - 1]

@@ -67,7 +67,7 @@ export default function Home() {
 								<motion.h1
 									{...animationOpacitySettings}
 									transition={{ delay: 1, duration: 2 }}
-									className="font-serif mt-5 text-4xl text-center pt-32 md:pt-0 md:text-start md:text-8xl dark:text-transparent transition-all duration-200"
+									className="font-serif mt-5 text-4xl text-center pt-6 md:pt-0 md:text-start md:text-8xl dark:text-transparent transition-all duration-200"
 									style={textStyle}>
 									Natalia del Barco
 								</motion.h1>
@@ -86,51 +86,99 @@ export default function Home() {
 												<Title>Sobre mí</Title>
 											</div>
 
-											<p className="md:mr-12 pt-4 pr-4 md:pt-10 md:h-[55dvh] h-[30dvh] overflow-y-auto pb-[2dvh] text-sm md:text-lg lg:text-md sobreMi">
-												<span>¡Hola!</span>
+											<div className="md:mr-12 pt-4 pr-4 md:pt-10 md:h-[55dvh] h-[30dvh] overflow-y-auto pb-[2dvh] text-sm md:text-[16px] sobreMi">
+												<p>
+													Soy{' '}
+													<span className="font-bold">
+														Diseñadora de Producto
+														UX/UI,{' '}
+													</span>
+													trabajo en UX/UI desde hace
+													casi{' '}
+													<span className="font-bold">
+														3 años
+													</span>
+													, aunque tengo un background
+													de{' '}
+													<span className="font-bold">
+														7 años en Diseño
+														Gráfico,
+													</span>{' '}
+													donde me he centrado en
+													estudiar diseño y entender
+													cómo comunicar al usuario de
+													una forma perspicaz y
+													visual.
+												</p>
 												<br />
-												Me llamo Natalia y entre otras
-												muchas cosas soy{' '}
-												<b className="font-bold">
-													Diseñadora de Producto
-													UX/UI,{' '}
-												</b>
-												desde hace 6 años me he centrado
-												en estudiar el diseño y
-												comprender cómo comunicar al
-												usuario de una forma perspicaz y
-												visual. Mi cometido es ayudar a
-												gestionar una experiencia de
-												usuario e interfaz exitosa en el
-												menor tiempo posible, realizando
-												un trabajo interdisciplinar,
-												centrado en el ser humano. He
-												trabajado en proyectos para
-												particulares y empresas; en la
-												industria de la publicidad,
-												marketing, comunicación,
-												farmacéutica y de energía.
-												Gracias a los conocimientos en
-												Diseño Gráfico, pongo en uso
-												toda la creatividad y
-												conocimientos prácticos en mi
-												trabajo. Para saber un poquito
-												más sobre mí tendrás que saber
-												que soy amante de todos los
-												animales (excepto bichos
-												voladores) y casa de acogida,
-												cocinera experta, gamer, friki
-												de la tecnología, IA, domótica y
-												diseño, hago trekking en
-												entornos naturales y urbanos y
-												la fotografía, que me acompaña a
-												donde vaya de viaje. ¿Lo que más
-												me motiva de mi trabajo? el
-												poder mejorar la experiencia del
-												usuario al interactuar con el
-												producto, con un diseño bien
-												enfocado, visual y perspicaz.
-											</p>
+												<p>
+													👩🏽‍💻 Mi misión es ayudar a
+													gestionar una UX y UI
+													exitosa en el menor tiempo
+													posible, haciendo un trabajo
+													interdisciplinario y
+													centrado en el ser humano.
+													He trabajado en proyectos
+													para particulares y
+													empresas; en la{' '}
+													<span className="font-bold">
+														Industria de la
+														Automoción
+													</span>{' '}
+													con{' '}
+													<span className="font-bold">
+														Cupra
+													</span>
+													,
+													<span className="font-bold">
+														{' '}
+														Gobierno de España,
+														Telefónica, Mapfre,{' '}
+													</span>
+													<span className="font-normal">
+														en la industria de la{' '}
+													</span>
+													<span className="font-bold">
+														Publicidad y Marketing,
+														Comunicación, Banca,
+														Financiera, Farmacéutica
+														y Energía.{' '}
+													</span>
+													Gracias a mis conocimientos
+													en Diseño Gráfico, utilizo
+													toda mi creatividad y
+													conocimientos prácticos en
+													mi trabajo
+												</p>
+												<br />
+												<p>
+													🙎🏽‍♀️ Me apasiona la
+													tecnología, me verás en
+													convenciones para aprender
+													más sobre innovación en el
+													mundo tech y mi principal
+													interés es la IA, domótica y
+													tendencias de diseño. Soy
+													casa de acogida de una
+													asociación de animales, me
+													encanta cocinar y
+													experimentar, gamer, hago
+													senderismo para tener las
+													ideas claras, me encanta la
+													fotografía, que me acompaña
+													allá donde voy.
+												</p>
+												<br />
+												<p>
+													💕 ¿Qué es lo que más me
+													motiva de mi trabajo? Poder
+													mejorar la experiencia del
+													usuario al interactuar con
+													el producto, con un diseño
+													bien enfocado y poder
+													aprender de cada proyecto.
+												</p>
+											</div>
 										</div>
 										<div className="flex items-center mt-[4dvh] md:-mt-14 md:my-0 w-full md:w-1/2 h-full justify-center md:justify-between mx-auto md:ml-32">
 											<div className="bg-[url('/portfolio/img/PerfilHiFi.png')] dark:bg-[url('/portfolio/img/PerfilLoFi.webp')] h-48 w-48 md:h-[30rem] md:w-[30rem] bg-contain bg-no-repeat transition-all duration-200"></div>
